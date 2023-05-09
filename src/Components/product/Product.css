@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+
+.searchinput__productpage{
+    margin-top: 3em;
+    width: 100%;
+  
+}
+.item__productpage h3{
+    justify-self: center;
+    align-items: left;
+    padding-top: 1em;
+    color: #ffc107;
+    /* padding-bottom: 3em; */
+    /* box-shadow: 0.1em 0.1em 0.4em 0.3em rgba(0,0,0,0.1); */
+}
+.item__productpage p{
+    color: white;
+}
+
+
+/*Items*/
+
+
+/*SimilarItems*/
+.similarItems1__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .similarItems1__productpage > h1 {
+    top: 23em;
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffc107;
+  }
+  
+  .similarItemsContainer__productpage {
+    background: #ffffff;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.15);
+    border-radius: 17px;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  
+  .similarItemsContainer__productpage img{
+    width: 100%;
+  }
+  
+  .similarItemsDescription__productpage {
+    padding: 1em;
+  }
+  
+  .similarItemsDescription__productpage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525151;
+    text-align: left;
+  }
+  
+  .similarItemsDescription__productpage > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .similarItemsDescription__productpage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .addToCart__productpage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .addToCart__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart__productpage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  /*Coursetrending*/
+  .coursetrending__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .coursetrending__productpage > h1 {
+    top: 54em;
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffc107;
+  }
+  
+  .coursetrendingContainer__productpage {
+    background: #000000;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5em;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+
+  .coursetrendingContainer__productpage img{
+    width: 100%;
+    height: 90%;
+    border-radius: 1em 1em 0em 0em;
+  }
+  
+  .coursetrendingDescription__productpage {
+    padding: 1em;
+  }
+  
+  .coursetrendingDescription__productpage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+  }
+  
+  .coursetrendingDescription__productpage > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+  }
+
+  .addToCart2__productpage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  
+  .addToCart2__productpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart2__productpage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  /* .item__productpage, .basket__container{
+    background-color:#171717;
+    border-radius: 2em;
+  } */

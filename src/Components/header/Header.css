@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__number{
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 3px;
+    top: 0px;
+    font-size: 12px;
+}
+
+.Home{
+display:flex;
+flex-direction: column;
+min-width: 90%;
+object-fit: contain;
+}
+
+.container__homepage{
+display: flex;
+flex-direction: row;
+padding-top: 3em;
+padding-bottom: 3em;
+position: relative;
+}
+
+.center__homepage{
+position: relative;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 0.85em;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+padding: 0.5em 15em;
+}
+
+.pages__homepage{
+padding: 0.5em 1.0em;
+cursor: pointer;
+}
+
+.left__homepage{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 1.5em;
+}
+
+.left__homepage img{
+object-fit: contain;
+width: 70%;
+}
+
+.lefthand__homepage{
+position: relative;
+display: flex;
+flex-direction: row;
+align-self: center;
+justify-content: center;
+/* padding: 0.5em 0.5em; */
+}
+
+.cart__homepage {
+width: 100%;
+
+}
+
+.cart__homepage img{
+width: 60%;
+}
+
+.maleavatar__homepage{
+width: 100%;
+}
+
+.maleavatar__homepage img{
+width: 60%;
+}
+
+.righthand__homepage span, a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hello__guest{
+    float: right;
+    background-color: black;
+}

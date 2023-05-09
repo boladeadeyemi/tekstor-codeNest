@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout__outercontainer{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.container__checkout{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+}
+
+.center__checkout{
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5em 15em;
+}
+
+.pages__checkout{
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+}
+
+.left__checkout{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.left__checkout img{
+    object-fit: contain;
+    width: 70%;
+}
+
+.lefthand__checkout{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.cart__checkout {
+    width: 100%;
+
+}
+
+.cart__checkout img{
+    width: 60%;
+}
+
+
+.righthand__checkout{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.checkout__word{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 8.5em;
+    letter-spacing: 0.09em;
+    line-height: 2.6em;
+}
+
+.ring__checkout{
+    position: absolute;
+    margin-top: -126%;
+    height:-0em;
+}
+
+.ring__checkout img{
+    width: 13em;
+}
+
+/*Checkout1*/
+.checkoutContainer {
+    background-color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 9em;
+    padding: 3em 4em;
+  }
+  
+  .rightCheckoutContainer {
+    margin-right: 8em;
+    width: 100%;
+    float: left;
+  }
+  
+  .checkoutContainer > p {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 1em;
+  }
+  
+  .paymentDetails {
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    width: 350px;
+    margin-bottom: 1em;
+  }
+  
+  .subRightCheckoutContainer {
+    color: white;
+  }
+  
+  .leftCheckoutContainer {
+    background-color: white;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+    padding: 7em 0em ;
+    position: relative;
+    margin-left: 6em;
+  }
+  
+  .leftCheckoutContainer > img{
+      max-height: 100%;
+      width: 60%;
+      object-fit: contain;
+  
+  }
+  
+  .proceed__checkout{
+      border: none;
+      background-color: #ffc107;
+      width: 50%;
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+      margin-top: 2em;
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 24px;
+      text-transform: uppercase;
+      cursor: pointer;
+  
+  }
+  
+  .subRightCheckoutContainer {
+    margin-left: 50px;
+  }
+  
+  .subRightCheckoutContainer {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .subRightCheckoutContainer > ul > li{
+      margin-bottom: 0.5em;
+  }
+  
+  .subRightCheckoutContainer > ul > li > span{
+      float: right;
+  }
+  
+  
+  .leftCheckoutContainer > p{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 29px;
+      margin-top: 0.5em;
+  }
+  
+  .leftCheckoutContainer span{
+      color: #ffc107;
+      cursor: pointer;
+  }
+  
+  .leftCheckoutContainer button{
+      width: 100%;
+      font-family: 'Inter';
+      font-weight:400;
+      font-size: 1em;
+  }
+  
+  .subRightCheckoutContainer > p > span{
+      float: right;
+  }
+
+  .payment__section{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    color: #ffc107;
+    /* padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+    border-radius: 1em;
+    border: solid #ffc107; */
+  }
+ 
+  /* .payment__details {
+    flex:0.8;
+  } */
+
+  .payment__section > h3{
+    color: #ffc107;
+  }
+
+  .payment__section button{
+    border-radius: 1em;
+    border: solid #ffc107;
+    width: 300%;
+    height: 4em;
+    font-weight: 700;
+    background-color: #171717;
+    color: #FFC107;
+  }
+

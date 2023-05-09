@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart2__reviewpage{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; 
+    background-color: #171717;  
+    border-radius: 1.5em;
+}
+
+.leftDiv__reviewpage{
+    max-width: 50%;
+    text-align: left;
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+}
+.leftDiv__reviewpage img{
+    /* position: absolute; */
+    max-width: 100%;
+    float: left;
+    width: 100%;
+    height: 100%;
+    left: 90px;
+    top:700px;
+    /* height: 70%; */
+    
+}
+
+
+.rightDiv__reviewpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textDiv__reviewpage{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.itemDes__reviewpage{
+    width: 80%;
+}
+.itemDes__reviewpage p{
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.textDiv__reviewpage p{
+    font-family: 'Inter';
+    font-weight: 500;
+    color: white;
+    font-size: 1.1em;
+}
+
+.textDiv__reviewpage span{
+    color: #FFC107;
+    font-size: 1.5em;
+    padding-left: 5.5em;
+    font-weight: 500;
+    float: right;
+}
+
+.buttons__reviewpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1em;
+}
+
+.btn1__reviewpage{
+    background-color: #171717;
+    border-color: #FFC107;
+    color: #FFC107;
+    border-radius: 1em;
+    width: 40%;
+    height: 30px;
+}
+
+.cart2__reviewpage button:active {
+    color: #FFC107;
+    background-color: white;
+}
+
+.D32__reviewpage h3{
+    color: white;
+    font-weight: 700;
+}
+
+.D32__reviewpage {
+    display:flex; 
+    width: 90%;
+    justify-content: flex-end;
+    padding-right: 5em;
+}
+
+
+.proceed__review{
+    width: 90%;
+    background-color: #171717;
+    height: 10em;
+
+}
+.proceed__review button{
+    color: #FFFFFF;
+    background-color: #FFC107;
+    width: 50%;
+    height: 4em;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+

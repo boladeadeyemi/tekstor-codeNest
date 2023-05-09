@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ring__homepage{
+    position: absolute;
+    margin-top: -71%;
+    max-width: 1em;
+    margin-left: 5em;
+}
+
+.ring__homepage img{
+    width: 13em;
+}
+
+
+.righthand__homepage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+
+.find__homepage{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 7em;
+    letter-spacing: 0.09em;
+}
+
+.find__homepage h1{
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+
+.searchinput__homepage{
+    margin-top: 3em;
+    width: 100%;
+  
+}
+.home__search {
+    justify-self: center;
+    align-items: center;
+    border-radius: 2em;
+    width: 40%;
+    padding-bottom: 3em;
+    border: hidden;
+    box-shadow: 0.1em 0.1em 0.4em 0.3em rgba(0,0,0,0.1);
+}
+
+.home__search input{
+    position: relative;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 300;
+    align-content: center;
+}
+
+.searchinput__homepage img{
+    position: absolute;
+    margin:1.2em -4em;
+    height: 1.5em;
+}
+
+.cards__homepage{
+    margin-bottom: 20em;
+}
+
+.title__homepage{
+    font-family: 'Inter';
+    color: #ffd24c;
+    text-align: center;
+    margin-top: 3em; 
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.mainDiv__homepage{
+    position: absolute;
+    left:7.5em;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.innerDiv__homepage{
+    position: relative;
+    justify-content: center;
+    margin-top: 3em ;
+    font-size: 0.8em;
+}
+.innerInner__homepage{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: inter, sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.innerDiv__homepage img{
+    width: 90%;
+}
+
+.similarItems__homepage > h1 {
+  top: 36em;
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  color: #ffc107;
+}
+
+.coursetrending__homepage > h1 {
+  top: 58em;
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  color: #ffc107;
+  margin-bottom: -2em;
+}
+  
+  .trendinggadgets__row {
+    display: flex;
+  }
+
+  .coursetrending__row {
+    display: flex;
+  }

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__page{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.container__landingpage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+}
+
+.center__landingpage{
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5em 15em;
+}
+
+.pages__landingpage{
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+}
+
+.left__landingpage{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.left__landingpage img{
+    object-fit: contain;
+    width: 70%;
+}
+.lefthand__landingpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.login__landingpage{
+    border-radius: 0.4em;
+    background-color: black; 
+    justify-content: center;
+    padding: 0.5em 0.9em;
+    position: relative;
+}
+
+.login__landingpage a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.righthand__landingpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.signup__landingpage {
+    border-radius: 0.4em;
+    background-color:#FFC107; 
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0.9em;
+}
+
+
+.signup__landingpage a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.find__landingpage{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 7em;
+    letter-spacing: 0.09em;
+}
+
+
+.signuplogin__landingpage{
+    position: relative;
+    background-color:#FFC107;
+    color: white;
+    border-radius: 0.4em;
+    padding: 1em 3em;
+    border-top: 0em;
+    font-family:'Inter';
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.bg1__landingpage{
+    background-image: url(../../assets/lpimage.png);
+    margin-top: 30em;
+    width: 100%;
+    height: 50em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+
+.ring3__landingpage{
+    position: absolute;
+    margin-top: 10%;
+    max-width: 1em;
+    margin-left: 5em;
+    /* width: 0%; */
+
+}
+
+.ring3__landingpage img{
+    width: 13em;
+}

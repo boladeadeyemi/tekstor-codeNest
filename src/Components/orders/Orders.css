@@ -1,0 +1,13 @@
+.orders button{
+    background-color: black;
+    border-radius: 1em;
+    color: #FFC107;
+    width: 20%;
+    height: 2em;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.orders p {
+   padding: 1em 1em 1em 1em ;
+}

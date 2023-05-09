@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.logincontainer__landingpage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+}
+
+.logincenter__landingpage{
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5em 15em;
+}
+
+.loginpages__landingpage{
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+}
+
+.loginleft__landingpage{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.loginleft__landingpage img{
+    object-fit: contain;
+    width: 70%;
+}
+.loginlefthand__landingpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.loginleft__landingpage Link{
+    text-decoration: none;
+}
+
+.login__landingpage{
+    border-radius: 0.4em;
+    background-color: black; 
+    justify-content: center;
+    padding: 0.5em 0.9em;
+    position: relative;
+}
+
+.login__landingpage a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.loginrighthand__landingpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.loginsignup__landingpage {
+    border-radius: 0.4em;
+    background-color:#FFC107; 
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0.9em;
+}
+
+
+.loginsignup__landingpage a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.login__word{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 7em;
+    letter-spacing: 0.09em;
+}
+
+.ring4__login{
+    position: absolute;
+    margin-top: -25.3em;
+    max-width: 1em;
+    margin-left: -12em;
+}                                                                                                                                                   
+
+.ring4__login img{
+    width: 12em;
+}
+
+.loginouter__box{
+    display: flex;
+    flex-direction: row;
+}
+
+.login__box{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background: #171717;
+    border-radius: 0em 1em 1em 0em;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    padding: 9em 4em;
+    text-align: center;
+}
+
+.loginpicture__box{
+    min-height: 200%;
+    border-radius: 1em 0em 0em 1em;
+    align-items: center;
+    width: 50%;
+    box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    padding: 6.7em 4em;
+    background-color: #FCFAFA;
+}
+
+.loginpicture__box img{
+    position: relative;  
+    max-width: 90%;
+    max-height: 100%; 
+}
+
+.login__box input{
+    background-color: #171717;
+    border-radius: 1em;
+    width: 100%;
+    padding: 1em 1em;
+    border-color: #FFC107;
+    color: #FCFAFA;
+}
+
+.loginbutton{
+    width: 100%;
+}
+
+.loginbutton button{
+    width: 110%;
+    background-color: #FFC107;
+    border-radius: 1em;
+    padding: 1em 1em;
+    color: #FCFAFA;
+    font-weight: 700;
+}
+
+.login__box p{
+    color: #FCFAFA;
+    font-size: 1em;
+}
+
+.loginuser_name{
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.loginpass_word{
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.loginforgot__password{
+    position: absolute;
+    margin-top: 14em;
+    margin-right: -14em;
+}
+.loginforgot__password p{
+    color: #FCFAFA;
+    opacity: 0.4;
+    text-align: left;
+    font-family: 'Inter';
+}
+
+.loginopen__account{
+    position: absolute;
+    margin-top: 22em;
+    margin-right: -1em;
+}
+
+.loginopen__account p{
+    color: #FCFAFA;
+    font-weight: 400;
+}
+
+.loginopen__account span{
+    color: #FFC107;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.logincontinue{
+    position: absolute;
+    margin-top: -20em;
+}
+
+.logineye img{
+    position: absolute;
+    margin-top: -2.5em;
+    margin-left: 7em;
+
+}

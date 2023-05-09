@@ -1,0 +1,120 @@
+.item__productpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    font-family: 'Inter';
+}
+
+.itemouter__productpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 3em
+}
+
+.item__productpage p{
+    color: #525151;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.leftDiv__productpage{
+    max-width: 50%;
+    text-align: left;
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+}
+.leftDiv__productpage img{
+    /* object-fit: contain; */
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+.rightDiv__productpage{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.textDiv__productpage{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.textDiv__productpage p{
+  font-family: 'Inter';
+  font-weight: 500;
+  color: white;
+  font-size: 1.5em;
+}
+
+.textDiv__productpage span{
+  color: #FFC107;
+  font-size: 1.5em;
+  padding-left: 5.5em;
+  font-weight: 500;
+  float: right;
+}
+
+.itemDes__productpage{
+    width: 80%;
+}
+
+.itemDes__productpage p{
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+
+.buttons__productpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1em;
+}
+
+.buttons__productpage button{
+    height: 4em;
+    font-weight: 700;
+}
+.btn1__productpage {
+    background-color: #171717;
+    border-color: #FFC107;
+    color: #FFC107;
+    border-radius: 1em;
+    width: 40%;
+}
+
+.buttons__productpage button:active {
+    background-color: #ffc107;
+    color:white ;
+}
+
+.D32__productpage h3{
+    color: white;
+    font-weight: 700;
+}
+
+.D32__productpage {
+    display:flex;
+    width: 90%;
+    justify-content: flex-end;
+    padding-right: 5em;
+}
