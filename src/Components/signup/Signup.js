@@ -3,11 +3,11 @@ import './Signup.css'
 import image from '../../assets/logo.png'
 import circle5 from '../../assets/ring.png'
 import registerimage from '../../assets/register.png'
-import { Link, useHistory } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { auth } from '../firebase'
 
 function Signup() {
-    const history = useHistory();
+    const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     // const signIn = e =>{
@@ -24,7 +24,7 @@ function Signup() {
             .then((auth) => {
                 //it successfully created a new user with email and password
                 if (auth) {
-                    history.push('/Home')
+                    navigate('/home')
                 }
             })
             .catch(error => alert(error.message))
@@ -87,7 +87,7 @@ function Signup() {
                     <input type="password" placeholder='Password' value={password} onChange={e => setPassword (e.target.value)}/>
                 </form>
                 <button className='button__signup' onClick={register}>SIGN UP</button>
-                <p>Already have an account? <span>Login</span></p>
+                <p>Already have an account? <span onClick={() => navigate("/login")}>Login</span></p>
             </div>
         </div>
     </div></div>

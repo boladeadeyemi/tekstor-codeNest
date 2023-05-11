@@ -1,8 +1,5 @@
 import React from 'react'
 import './Product.css'
-// import Trendinggadgets from '../trendinggadgets/Trendinggadgets'
-// import {trendinggadgets } from '../Dummy/Dummy'
-// import Trendingcourse from '../trendingcourses/Trendingcourse'
 import Itemdetails from '../itemdetails/Itemdetails'
 import { useStateValue } from '../../StateProvide'
 import Subtotal from '../subtotal/Subtotal'

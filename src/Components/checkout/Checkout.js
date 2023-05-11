@@ -1,16 +1,16 @@
 import React from 'react'
 import './Checkout.css'
 import circle from '../../assets/ring.png'
-import {useHistory } from 'react-router-dom'
 import { useStateValue } from '../../StateProvide'
 import Itemdetails from '../itemdetails/Itemdetails'
 import { getBasketTotal } from '../../reducer'
+import { useNavigate } from 'react-router-dom'
 
 
 function Checkout() {
     const [{basket, user}, dispatch ] = useStateValue();
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handlePay = () => {
         const publicKey = 'pk_test_abd4fe48f4c43021b4bf83c38ee61e2a05bbd98e';
@@ -29,9 +29,9 @@ function Checkout() {
             console.log(response);
           },
         });
-    
+        
         handler.openIframe();
-        history.replace('/orders')
+        navigate('/orders')
       };
 
 
@@ -54,8 +54,7 @@ function Checkout() {
             <div className="rightCheckoutContainer">
                 
                     <div className="subRightCheckoutContainer">
-                        <ul>
-                            <li>{basket.map(item =>(
+                            {basket.map(item =>(
                                                 <Itemdetails
                                                 id= {item.id}
                                                 name = {item.name}
@@ -63,8 +62,7 @@ function Checkout() {
                                                 price = {item.price}
                                                 description = {item.description}
                                                 />
-                                        ))}</li>
-                        </ul>
+                                        ))}
                     </div>
             </div>
             {/* <div className="leftCheckoutContainer"> */}

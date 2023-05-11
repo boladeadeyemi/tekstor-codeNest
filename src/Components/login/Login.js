@@ -4,25 +4,31 @@ import image from '../../assets/logo.png'
 import circle4 from '../../assets/ring.png'
 import LoginPix from '../../assets/login-picture.png'
 import eyes from '../../assets/eye.png'
-import { Link, useHistory } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { auth } from '../firebase'
 
 
 function Login() {
-    const history = useHistory();
+    const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const signIn = e =>{
         e.preventDefault()
-
         //some fancy firebase login 
         auth
             .signInWithEmailAndPassword(email, password)
             .then(auth => {
-                history.push('/Home')
+                navigate('/Home')
             })
             .catch(error => alert(error.message))
     }
+
+    //to reveal the password
+    const togglePassword = () => {
+       setShowPassword(!showPassword);
+    }
+
   return (
     <div className="login">
             <div className="logincontainer__landingpage">
@@ -72,14 +78,14 @@ function Login() {
                     <div className="logincontinue"><p>Login to continue shopping</p></div>
 
                     <div className= "loginuser_name"><input type="email" placeholder="Email" value={email} onChange={e => setEmail (e.target.value)} /></div>
-                    <div className="loginpass_word"><input type="password"  placeholder="Password"  value={password} onChange={e => setPassword (e.target.value)}/>
-                    <div className="logineye"><img  src={eyes}alt="see password" /></div>
+                    <div className="loginpass_word"><input type={showPassword ? "text" : "password" } placeholder="Password"  value={password} onChange={e => setPassword (e.target.value)}/>
+                    <div className="logineye"><img onClick={togglePassword} src={eyes}alt="see password" /></div>
                     </div>
                     <div className="loginbutton"><Link to = '/Home'> <button  type='submit' onClick={signIn}>LOGIN</button></Link></div>
                     <div  className="loginforgot__password">
                     <p>Forgot password?</p> 
                     </div>
-                    <div className="loginopen__account"><p>Don't have an account? <span>Sign Up</span></p></div>
+                    <div className="loginopen__account"><p>Don't have an account? <span onClick={() => navigate("/signup")}>Sign Up</span></p></div>
 
                 </div>
             </div>

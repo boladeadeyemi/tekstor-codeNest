@@ -15,9 +15,8 @@ function Trendinggadgets({id, image, name, description, price}) {
         image: image,
         name: name,
         price: price,
-        description: description
-        
-      }
+        description: description  
+        }
     })
   }
 

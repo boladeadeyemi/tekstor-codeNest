@@ -2,16 +2,16 @@ import React from 'react'
 import './Orders.css'
 import { getBasketTotal } from '../../reducer'
 import { useStateValue } from '../../StateProvide';
-import {useHistory } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 
 
 
 
 function Orders() {
-    const history = useHistory();
+    const navigate = useNavigate();
     const [{basket, user}, dispatch ] = useStateValue();
     const toHome = () => {
-      history.push("/home")
+      navigate("/home")
       window.location.reload()
     }; 
 

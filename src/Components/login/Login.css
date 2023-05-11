@@ -224,6 +224,7 @@
     color: #FFC107;
     font-family: "Inter";
     font-weight: 700;
+    cursor: pointer;
 }
 
 .logincontinue{
