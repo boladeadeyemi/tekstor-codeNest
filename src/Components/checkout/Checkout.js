@@ -16,8 +16,9 @@ function Checkout() {
         const publicKey = 'pk_test_abd4fe48f4c43021b4bf83c38ee61e2a05bbd98e';
         const reference = `ref-${Math.floor(Math.random() * 10e8)}`;
         
-    
-        const handler = window.PaystackPop.setup({
+        
+        const handler = window.PaystackPop.setup(
+          {
           key: publicKey,
           email:user?.email,
           amount: getBasketTotal(basket) * 100,

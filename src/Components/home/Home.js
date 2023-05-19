@@ -68,7 +68,7 @@ function Home() {
                         <img src={image3} alt = 'alllt' /> 
                         <div className="innerInner__homepage">
                             <h1 className="textUp">TECH</h1>
-                            <h1 className="textDown">GADGETS</h1>  
+                            <h1 className="textDown">GADGETS</h1> 
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ function Home() {
      <div>
     
  
-    <div className="similarItems__homepage">
+    <div id='gadgets'  className="similarItems__homepage">
       <h1>TRENDING GADGETS</h1>
     <div class= 'trendinggadgets__row'>
         {trendinggadgets.map(data => (

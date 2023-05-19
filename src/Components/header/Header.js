@@ -27,9 +27,9 @@ function Header() {
             
              
             <div className="center__homepage">
-            <div className="pages__homepage">
+            <a href="#gadgets"><div className="pages__homepage">
                 GADGETS
-            </div>
+            </div></a>
             <div className="pages__homepage">
                 VIDEOS
             </div>

@@ -45,9 +45,9 @@ function Landingpage() {
             <div className="find__landingpage">
             <h1>FIND ANY TECH <br></br> RESOURCES EASILY!</h1>
             </div>
-            <div className="signuplogin__landingpage">
-                SIGN UP / LOGIN
-            </div>
+            <Link to="/signup"><div className="signuplogin__landingpage">
+               SIGN UP / LOGIN
+            </div></Link>
             
     </div>
   )
