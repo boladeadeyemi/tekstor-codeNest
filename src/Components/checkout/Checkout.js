@@ -50,7 +50,7 @@ function Checkout() {
                 <div className="checkoutContainer">
                     <p>Hey {user?.email}</p>
                 <h4 className='paymentDetails'>You are about to pay the 
-                    sum of ${getBasketTotal(basket)} only, for the following:</h4>
+                    sum of N{getBasketTotal(basket)} only, for the following:</h4>
 
             <div className="rightCheckoutContainer">
                 

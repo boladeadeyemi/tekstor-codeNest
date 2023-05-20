@@ -18,7 +18,7 @@ function Orders() {
   return (
     <div className='orders'>
        <h1>Your Orders Report</h1> 
-        <p>{user?.email}, your Order of ${getBasketTotal(basket)} is successfull. </p>
+        <p>{user?.email}, your Order of N{getBasketTotal(basket)} is successfull. </p>
         <button onClick={toHome}>Go back to the Home Page</button>
         
     </div>
