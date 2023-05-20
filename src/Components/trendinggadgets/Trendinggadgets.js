@@ -29,7 +29,7 @@ function Trendinggadgets({id, image, name, description, price}) {
         <h4>{name}</h4>
         <p>{description}</p>
         <div className="addToCart__homepage">
-          <h4>${price}</h4>
+          <h4>N{price}</h4>
           <button onClick={addToCart}>ADD TO CHART</button>
         </div>
       </div>

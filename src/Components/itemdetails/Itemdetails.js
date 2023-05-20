@@ -19,7 +19,7 @@ function Itemdetails({id, image, name, price, description} ) {
             </div>
                     <div className="rightDiv__productpage">
                             <div className="textDiv__productpage">
-                            <p>{name} </p> <span>${price}</span>
+                            <p>{name} </p> <span>N{price}</span>
                             </div>
                             <div className="itemDes__productpage"><p>{description}</p>
                             </div>

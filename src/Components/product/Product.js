@@ -31,7 +31,7 @@ function Product() {
          
 
         <div className="checkout__right">
-            <p>Subtotal:  ${getBasketTotal(basket)}</p>
+            <p>Subtotal:  N{getBasketTotal(basket)}</p>
             <button onClick={ () => navigate("/review")}>Proceed to Review</button>
         </div>
 
